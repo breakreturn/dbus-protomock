@@ -1,0 +1,11 @@
+<node name="/com/jogr/MyComponent">
+    <interface name="org.freedesktop.DBus.Introspectable">
+        <method name="Introspect">
+            <arg direction="out" type="s" />
+        </method>
+    </interface>
+    <interface name="com.jogr.MyComponent">
+        <method name="StartPinging">
+        </method>
+    </interface>
+</node>

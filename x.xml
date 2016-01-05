@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf8'?>
+<node name="/com/jogr/X">
+    <interface name="com.jogr.X">
+        <method name="Ping">
+            <arg direction="in" type="s" />
+            <arg direction="out" type="s" />
+        </method>
+    </interface>
+</node>
