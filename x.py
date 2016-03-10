@@ -9,6 +9,6 @@ SYSTEM_BUS = False
 def load(mock, parameters):
     
     mock.AddMethods(MAIN_IFACE, [
-        ("Ping", "", "s", "ret = True"),
+        ("Ping", "", "s", "ret = 'Hello'"),
     ])
 
